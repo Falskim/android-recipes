@@ -2,9 +2,11 @@ package com.example.foodrecipes;
 
 import android.util.Log;
 
+import java.io.Serializable;
 import java.util.List;
 
-public class Recipe {
+public class Recipe implements Serializable {
+
     private String name;
     private String image;
     private List<String> ingredients;
@@ -35,12 +37,30 @@ public class Recipe {
         this.ingredients = ingredients;
     }
 
+    public String getIngredientsHTML() {
+        String htmlString = "";
+        for (String ingredient: ingredients) {
+            htmlString += String.format("&#8226 %s<br/>", ingredient);
+        }
+        return htmlString;
+    }
+
     public List<String> getSteps() {
         return steps;
     }
 
     public void setSteps(List<String> steps) {
         this.steps = steps;
+    }
+
+    public String getStepsHTML() {
+        String htmlString = "";
+        for (int i=0; i<steps.size(); i++) {
+            htmlString += String.format("---( %d )--- <br/>", (i+1));
+            htmlString += String.format("%s <br/>", steps.get(i));
+            if (i<steps.size()-1) htmlString += "<br/>";
+        }
+        return htmlString;
     }
 
     public String getUrl() {

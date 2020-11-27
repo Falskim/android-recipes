@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Food Recipes</string>
+    <string name="recipe_information">Recipe Information</string>
+    <string name="recipe_image">Recipe Image</string>
+    <string name="ingredients">Ingredients</string>
+    <string name="steps">Steps</string>
+    <string name="placeholder">Placeholder</string>
+    <string name="recipe_source">Recipe Source</string>
 </resources>

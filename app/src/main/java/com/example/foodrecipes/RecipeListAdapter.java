@@ -1,6 +1,7 @@
 package com.example.foodrecipes;
 
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.drawable.Drawable;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -66,7 +67,7 @@ public class RecipeListAdapter extends RecyclerView.Adapter<RecipeListAdapter.Re
         public RecipeViewHolder(View itemView, RecipeListAdapter adapter) {
             super(itemView);
             this.cardText = itemView.findViewById(R.id.card_text);
-            this.cardImage = itemView.findViewById(R.id.card_image);
+            this.cardImage = itemView.findViewById(R.id.recipe_image);
             this.mAdapter = adapter;
 
             itemView.setOnClickListener(this);
@@ -76,14 +77,12 @@ public class RecipeListAdapter extends RecyclerView.Adapter<RecipeListAdapter.Re
         public void onClick(View v) {
             // Get the position of the item that was clicked.
             int mPosition = getLayoutPosition();
-            // Use that to access the affected item in mWordList.
-            String element = recipeList.get(mPosition).getName();
-            Log.d("Card", element);
-            // Change the word in the mWordList.
-//            recipeList.set(mPosition, "Clicked! " + element);
-            // Notify the adapter, that the data has changed so it can
-            // update the RecyclerView to display the data.
-            mAdapter.notifyDataSetChanged();
+            Recipe recipe = recipeList.get(mPosition);
+
+            Intent intent = new Intent(context, RecipeDetailActivity.class);
+            intent.putExtra("recipe", recipe);
+
+            context.startActivity(intent);
         }
     }
 
