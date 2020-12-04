@@ -40,7 +40,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="@string/password"
-        android:inputType="textUri|textShortMessage|textPassword" />
+        android:inputType="textPassword" />
 
     <Button
         android:id="@+id/button"
