@@ -17,6 +17,8 @@ public class HomeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
+        getSupportActionBar().setTitle("Home");
+
         ArrayList<Recipe> recipes = new JSONParser(this).getRecipeArrayList();
         adapter = new RecipeListAdapter(this, recipes);
 
