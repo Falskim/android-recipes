@@ -1,7 +1,6 @@
 package com.example.foodrecipes;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.LinearLayoutManager;
 
 import android.content.Intent;
 import android.graphics.drawable.Drawable;
@@ -32,7 +31,7 @@ public class RecipeDetailActivity extends AppCompatActivity {
     }
 
     public boolean onOptionsItemSelected(MenuItem item){
-        Intent myIntent = new Intent(getApplicationContext(), MainActivity.class);
+        Intent myIntent = new Intent(getApplicationContext(), HomeActivity.class);
         startActivityForResult(myIntent, 0);
         return true;
     }
