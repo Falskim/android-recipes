@@ -17,7 +17,7 @@ import java.util.List;
 public class JSONParser {
 
     private Context context;
-    JSONObject obj;
+
 
     public JSONParser(Context context){
         this.context = context;
@@ -27,7 +27,7 @@ public class JSONParser {
         ArrayList<Category> categories = new ArrayList<>();
 
         try {
-            this.obj = new JSONObject(loadJSONFromAsset());
+            JSONObject obj = new JSONObject(loadJSONFromAsset());
             Iterator<String> keys = obj.keys();
             while (keys.hasNext()) {
                 String key = keys.next();
@@ -35,9 +35,6 @@ public class JSONParser {
 
                 String name = key;
                 String image = jsonValue.get("image").toString();
-
-                Log.d("CategoryName", name);
-                Log.d("CategoryImage", image);
 
                 Category category = new Category();
                 category.setName(name);
@@ -51,33 +48,34 @@ public class JSONParser {
         return categories;
     }
 
-    public ArrayList<Recipe> getRecipeArrayList() {
+    public ArrayList<Recipe> getRecipesFromCategory(String category) {
         ArrayList<Recipe> recipes = new ArrayList<>();
         try {
-            this.obj = new JSONObject(loadJSONFromAsset());
-            Iterator<String> temp = obj.keys();
-            while (temp.hasNext()) {
-                String key = temp.next();
-                JSONObject jsonValue = (JSONObject)obj.get(key);
+            JSONArray recipeArray = new JSONObject(loadJSONFromAsset())
+                    .getJSONObject(category)
+                    .getJSONArray("recipe");
 
-                String name = jsonValue.get("name").toString();
-                String image = jsonValue.get("image").toString();
-                String url = jsonValue.get("url").toString();
+            for(int i = 0; i < recipeArray.length(); i++){
+                JSONObject recipeJson = recipeArray.getJSONObject(i);
+
+                String name = recipeJson.get("name").toString();
+                String image = recipeJson.get("image").toString();
+                String url = recipeJson.get("url").toString();
 
                 Log.d("RecipeName", name);
                 Log.d("RecipeImage", image);
                 Log.d("RecipeURL", url);
 
-                JSONArray jsonArray = jsonValue.getJSONArray("ingredients");
+                JSONArray jsonArray = recipeJson.getJSONArray("ingredients");
                 List<String> ingredients = new ArrayList<>();
-                for(int i = 0; i < jsonArray.length(); i++){
-                    ingredients.add(jsonArray.getString(i));
+                for(int j = 0; j < jsonArray.length(); j++){
+                    ingredients.add(jsonArray.getString(j));
                 }
 
-                jsonArray = jsonValue.getJSONArray("steps");
+                jsonArray = recipeJson.getJSONArray("steps");
                 List<String> steps = new ArrayList<>();
-                for(int i = 0; i < jsonArray.length(); i++){
-                    steps.add(jsonArray.getString(i));
+                for(int j = 0; j < jsonArray.length(); j++){
+                    steps.add(jsonArray.getString(j));
                 }
 
                 Recipe recipe = new Recipe();

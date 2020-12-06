@@ -26,4 +26,5 @@ public class Category implements Serializable {
     public void setImage(String image) {
         this.image = image;
     }
+
 }

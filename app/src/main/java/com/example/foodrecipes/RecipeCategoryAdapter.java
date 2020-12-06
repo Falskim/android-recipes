@@ -80,7 +80,7 @@ public class RecipeCategoryAdapter extends RecyclerView.Adapter<RecipeCategoryAd
         public void onClick(View v) {
             // Get the position of the item that was clicked.
             int mPosition = getLayoutPosition();
-            Category category = categories.get(mPosition);
+            String category = categories.get(mPosition).getName();
 
             Intent intent = new Intent(context, RecipeListActivity.class);
             intent.putExtra("category", category);

@@ -24,8 +24,6 @@ public class RecipeCategoryActivity extends AppCompatActivity {
         ArrayList<Category> categories = new JSONParser(this).getRecipeCategories();
         adapter = new RecipeCategoryAdapter(this, categories);
 
-        Log.d("MyTag", "Creating Recycler View");
-        Log.d("MyTag", String.valueOf(categories));
         recyclerView = findViewById(R.id.recycler);
         recyclerView.setAdapter(adapter);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));

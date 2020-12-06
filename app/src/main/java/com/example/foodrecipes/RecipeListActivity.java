@@ -17,9 +17,10 @@ public class RecipeListActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_recipe_list);
 
-        getSupportActionBar().setTitle("Home");
+        String category = getIntent().getStringExtra("category");
+        getSupportActionBar().setTitle(category);
+        ArrayList<Recipe> recipes = new JSONParser(this).getRecipesFromCategory(category);
 
-        ArrayList<Recipe> recipes = new JSONParser(this).getRecipeArrayList();
         adapter = new RecipeListAdapter(this, recipes);
 
         recyclerView = findViewById(R.id.recycler);
