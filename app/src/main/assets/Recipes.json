@@ -5,6 +5,8 @@
 			{
 				"name": "Ayam Goreng Lengkuas Sajiku®",
 				"image": "ayam_goreng_lengkuas.jpg",
+				"time": "25 menit",
+				"size": "8 porsi",
 				"ingredients": [
 					"1 ekor ayam, berat 1 kg, potong 8",
 					"3 siung bawang putih",
@@ -31,8 +33,63 @@
 				"url" : "https://www.dapurumami.com/resep/ayam-goreng-lengkuas-sajiku-WJYla"
 			},
 			{
+				"name": "Ayam Geprek Sambal Matah Ala Sajiku®",
+				"image": "ayam_geprek_sambal_matah.png",
+				"time": "30 menit",
+				"size": "3 porsi",
+				"ingredients": [
+					"Ayam potong 200 gr",
+					"1 bks  Sajiku® Tepung Bumbu 80 gr",
+					"4 sdm Air es",
+					"600 ml  Minyak goreng",
+					"Bahan sambal matah:",
+					"2 bh  Cabai merah besar",
+					"6 bh  Cabai rawit",
+					"8 siung Bawang merah",
+					"2 btg  Sereh",
+					"½ sdt  Terasi",
+					"¼ sdt  Garam "
+				],
+				"steps": [
+					"Iris cabai merah besar, cabai rawit, bawang merah, dan sereh. Panaskan 3 sdm minyak goreng, tumis irisan cabai merah besar, cabai rawit, bawang merah, dan sereh hingga harum. Sisihkan.",
+					"Buat adonan basah: campur 2 sdm Sajiku® Tepung Bumbu dengan 4 sdm air es. Sisanya digunakan sebagai adonan kering.",
+					"Masukkan ayam ke dalam adonan basah, gulingkan ke adonan kering sambil diremas-remas hingga terbentuk kulit yang keriting, ketuk-ketuk agar sisa tepung hilang.",
+					"Panaskan minyak goreng, goreng ayam hingga kuning kecoklatan. Angkat dan geprek, sajikan bersama sambal matah."
+				],
+				"url" : "https://www.dapurumami.com/resep/ayam-geprek-sambal-matah-ala-sajiku-1eUak"
+			},
+			{
+				"name": "Ayam Crispy Saus Korea Ala Sajiku®",
+				"image": "ayam_crispy.jpg",
+				"time": "30 menit",
+				"size": "3 porsi",
+				"ingredients": [
+					"250 gr Daging ayam (3 potong)",
+					"1 bks Sajiku® Tepung Bumbu Golden Crispy 80 gr",
+					"5 sdm Air",
+					"600 ml Minyak goreng",
+					"1 sdm Wijen sangrai",
+					"Bahan Saus Korea:",
+					"2 sdm Saus sambal",
+					"1 sdt Cuka apel",
+					"3 sdm Gula",
+					"2 sdm Kecap asin",
+					"100 ml Air",
+					"2 sdm Larutan maizena"
+				],
+				"steps": [
+					"Buat adonan basah dengan melarutkan 1 Sajiku® Tepung Bumbu Golden Crispy dengan 5 sdm air, aduk rata. Sisa Sajiku® Tepung Bumbu Golden Crispy digunakan sebagai adonan kering",
+					"Gulingkan ayam ke adonan kering, kemudian celupkan ke adonan basah hingga rata. Lalu gulingkan kembali ke adonan kering sambil diremas-remas hingga terbentuk kulit tepung yang keriting.",
+					"Panaskan minyak goreng. Goreng ayam hingga berwarna kuning kecoklatan. Angkat dan tiriskan.",
+					"Buat saus: Panaskan wajan, masukkan saus sambal, cuka apel, larutan maizena, kecap asin, dan air, aduk hingga mengental. Masukkan ayam goreng, aduk rata dan taburi dengan wijen."
+				],
+				"url" : "https://www.dapurumami.com/resep/ayam-crispy-saus-korea-ala-sajiku-A9KpS"
+			},
+			{
 				"name": "Mie Sapi Lada Hitam Ala SAORI®",
 				"image": "mie_sapi_lada_hitam.jpg",
+				"time": "30 menit",
+				"size": "2 porsi",
 				"ingredients": [
 					"150 gr Mie Gepeng Rebus",
 					"70 gr Daging Sapi",
@@ -51,6 +108,28 @@
 				],
 				"url": "https://www.dapurumami.com/resep/mie-sapi-lada-hitam-ala-saori-Q4OG0"
 			},
+			{
+				"name": "Beef Yakiniku Ala Masako®",
+				"image": "beef_yakiniku.png",
+				"time": "30 menit",
+				"size": "2 porsi",
+				"ingredients": [
+					"150 gr Daging sandung lamur, iris tipis",
+					"¼ bks  Masako® Rasa Sapi 10 gr",
+					"1 sdm  Gula pasir",
+					"¼ sdt Merica",
+					"50 ml  Air",
+					"1 sdt  Minyak wijen",
+					"2 sdm Minyak goreng"
+				],
+				"steps": [
+					"Buat saus : siapkan wadah, masukkan gula pasir, merica, air, dan minyak wijen.",
+					"Tambahkan Masako® Rasa Sapi, aduk rata.",
+					"Celupkan irisan daging kedalam saus.",
+					"Panaskan sedikit minyak di atas wajan anti lengket, panggang daging hingga matang. Angkat dan sajikan."
+				],
+				"url": "https://www.dapurumami.com/resep/beef-yakiniku-ala-masako-g1Yst"
+			},
 		]
 	},
 	"Seafood": {
@@ -59,6 +138,8 @@
 			{
 				"name": "Udang Saus Lada Hitam Ala SAORI®",
 				"image": "udang_saus_lada_hitam.jpg",
+				"time": "30 menit",
+				"size": "4 porsi",
 				"ingredients": [
 					"250 gr Udang galah",
 					"1 bks SAORI® Saus Lada Hitam",
@@ -72,6 +153,97 @@
 					"Tambahkan SAORI® Saus Lada Hitam , aduk rata, masak hingga matang, angkat dan sajikan."
 				],
 				"url": "https://www.dapurumami.com/resep/udang-saus-lada-hitam-ala-saori-xFSxJ"
+			},
+			{
+				"name": "Cumi Tepung Asam Manis Ala SAORI®",
+				"image": "cumi_tepung_asam_manis.jpg",
+				"time": "45 menit",
+				"size": "2 porsi",
+				"ingredients": [
+					"100 gr Cumi",
+					"1 bks SAORI® Saus Asam Manis",
+					"1 bks Sajiku® Tepung Bumbu 80 gr",
+					"¼ bh Bawang Bombay",
+					"15 gr Paprika Merah",
+					"15 gr Paprika Hijau",
+					"110 ml Air",
+					"600 ml Minyak Goreng"
+				],
+				"steps": [
+					"Potong bawang bombay, paprika merah dan paprika hijau bentuk segitiga, iris cumi. Sisihkan.",
+					"Buat adonan tepung basah dan kering. Masukkan cumi ke adonan basah lalu gulingkan ke adonan kering, ketuk. Sisihkan. Goreng dalam minyak panas hingga kecoklatan. Angkat Sisihkan.",
+					"Panaskan 2 sdm minyak goreng, masukkan paprika merah, paprika hijau dan bawang bombay. Tumis hingga harum.",
+					"Tambahkan 70 ml air dan SAORI® Saus Asam Manis. Angkat dan tuang di atas cumi tepung goreng."
+				],
+				"url": "https://www.dapurumami.com/resep/cumi-tepung-asam-manis-ala-saori-PDLj3"
+			},
+			{
+				"name": "Sup Ikan Tenggiri Ala AJI‑NO‑MOTO®",
+				"image": "sup_ikan_tenggiri.jpg",
+				"time": "60 menit",
+				"size": "4 porsi",
+				"ingredients": [
+					"250 gr Ikan Tenggiri Fillet",
+					"2 sdm Tapioka",
+					"100 gr Sawi Asin",
+					"4 bh Tomat Hijau",
+					"30 gr Daun Kemangi",
+					"1 sdm Ebi Sangrai",
+					"2 sdm Bawang Goreng, Haluskan",
+					"1 sdt AJI-NO-MOTO®",
+					"2 sdm Kecap Ikan",
+					"1 sdm Garam",
+					"½ sdt Merica",
+					"1000 ml Air" 
+				],
+				"steps": [
+					"Bersihkan sawi asin hingga bersih, potong tomat hijau, sisihkan.",
+					"Potong-potong ikan tenggiri, taburi ikan dengan tepung tapioka, sisihkan.",
+					"Panaskan air, masukkan ebi sangrai, kecap ikan, bawang goreng, garam, merica dan 1 sdt AJI‑NO‑MOTO®, masak hingga mendidih.",
+					"Masukkan ikan tenggiri, sawi asin, tomat hijau dan kemangi, masak hingga ikan matang, angkat dan sajikan."
+				],
+				"url": "https://www.dapurumami.com/resep/sup-ikan-tenggiri-ala-aji-no-moto-nUJ0n"
+			},
+			{
+				"name": "Cumi Saus Mentega Ala SAORI®",
+				"image": "cumi_saus_mentega.jpg",
+				"time": "30 menit",
+				"size": "4 porsi",
+				"ingredients": [
+					"100 gr Cumi",
+					"1 bh Cabai Merah Besar",
+					"½ bh Bawang Bombay",
+					"2 sdm Minyak Goreng",
+					"1 bks SAORI® Saus Mentega" 
+				],
+				"steps": [
+					"Potong bawang bombay, iris cabai merah, dan potong cumi",
+					"Panaskan minyak, masukan bawang bombay & cabai merah, tumis hingga layu",
+					"Masukkan cumi dan SAORI® Saus Mentega, aduk rata.",
+					"Masak hingga matang"
+				],
+				"url": "https://www.dapurumami.com/resep/cumi-saus-mentega-ala-saori-GRxkq"
+			},
+			{
+				"name": "Tumis Kerang Saus Mentega Ala SAORI®",
+				"image": "tumis_kerang_saus_mentega.jpg",
+				"time": "30 menit",
+				"size": "2 porsi",
+				"ingredients": [
+					"150 gr Kerang Dara Rebus",
+					"1 bks SAORI® Saus Rasa Mentega",
+					"¼ bh Bawang Bombay",
+					"1 bh Cabai Merah",
+					"1 bh Cabai Hijau",
+					"2 sdm Minyak Goreng" 
+				],
+				"steps": [
+					"Iris bawang bombay memanjang, potong cabai merah dan cabai hijau bentuk segitiga , sisihkan",
+					"Panaskan 2 sdm minyak goreng , tumis bawang bombay, cabai merah dan cabai hijau",
+					"Masukkan kerang dara rebus, aduk rata",
+					"Masukkan air dan SAORI® Saus Rasa Mentega, aduk rata, masak hingga matang"
+				],
+				"url": "https://www.dapurumami.com/resep/tumis-kerang-saus-mentega-ala-saori-tto7j"
 			}
 		]
 	},
@@ -81,6 +253,8 @@
 			{
 				"name": "Bakwan Tahu Udang Ala Sajiku®",
 				"image": "bakwan_tahu_udang.jpg",
+				"time": "30 menit",
+				"size": "7 porsi",
 				"ingredients": [
 					"80 gr Tahu putih",
 					"50 gr Udang cincang",
@@ -101,6 +275,8 @@
 			{
 				"name": "Telur Gulung Ala AJI‑NO‑MOTO®",
 				"image": "telur_gulung.jpeg",
+				"time": "30 menit",
+				"size": "8 porsi",
 				"ingredients": [
 					"2 btr Telur",
 					"1 sdt AJI-NO-MOTO®",
@@ -116,6 +292,67 @@
 					"Gulung telur dengan tusuk sate. Angkat dan sajikan"
 				],
 				"url": "https://www.dapurumami.com/resep/telur-gulung-ala-aji-no-moto-BGR7v"
+			},
+			{
+				"name": "Pisang Nugget Ala Sajiku®",
+				"image": "pisang_nugget.jpg",
+				"time": "60 menit",
+				"size": "16 porsi",
+				"ingredients": [
+					"5 bh Pisang kepok besar",
+					"1 bks Sajiku® Tepung Manis Serbaguna 75gr",
+					"100 gr Tepung panir",
+					"500 ml Minyak goreng",
+					"2 bh Telur kocok",
+					"Cokelat leleh",
+					"Meses" 
+				],
+				"steps": [
+					"Siapkan wadah, haluskan pisang menggunakan garpu, tambahkan Sajiku® Tepung Manis Serbaguna, aduk rata.",
+					"Masukkan adonan pisang ke dalam wadah tahan panas yang telah di olesi minyak, kukus hingga matang selama 30 menit, angkat",
+					"Potong-potong nugget pisang. Masukkan potongan pisang ke dalam telur kocok, lalu gulingkan di atas tepung panir.",
+					"panaskan minyak goreng, goreng hingga nugget pisang matang, angkat, dan beri topping sesuai selera."
+				],
+				"url": "https://www.dapurumami.com/resep/pisang-nugget-ala-sajiku-jfdvG"
+			},
+			{
+				"name": "Sosis Gulung Mie Ala Sajiku®",
+				"image": "sosis_gulung.png",
+				"time": "60 menit",
+				"size": "8 porsi",
+				"ingredients": [
+					"8 bh Sosis ayam",
+					"300 gr Mie",
+					"1 bks Sajiku® Bumbu Nasi Goreng Rasa Ayam",
+					"500 ml Minyak goreng",
+					"50 ml Air"
+				],
+				"steps": [
+					"Potong sosis ayam menjadi 2 bagian, belah ujungnya menjadi 4 bagian. Sisihkan",
+					"Campur mie kuning, air, dan Sajiku® Bumbu Nasi Goreng Rasa Ayam. Aduk rata.",
+					"Lilitkan sosis dengan adonan mie.",
+					"Panaskan minyak goreng, goreng sosis mie hingga matang. Angkat dan sajikan."
+				],
+				"url": "https://www.dapurumami.com/resep/sosis-gulung-mie-ala-sajiku-AQXX7"
+			},
+			{
+				"name": "Pie Apel Ala Mayumi®",
+				"image": "pie_apple.jpg",
+				"time": "40 menit",
+				"size": "6 porsi",
+				"ingredients": [
+					"6 bh Roti Tawar",
+					"1 bks Mayumi® 100 gr",
+					"1 bh Apel Hijau",
+					"30 gr Keju" 
+				],
+				"steps": [
+					"Potong apel bentuk dadu kecil, sisihkan.",
+					"Buat adonan: Campurkan Mayumi®, apel, keju, dan, aduk rata.",
+					"Taruh roti tawar dalam cetakan pie, lalu isi dengan adonan Mayumi®.",
+					"Panggang pie dalam wajan anti lengket hingga roti kering, angkat dan sajikan."
+				],
+				"url": "https://www.dapurumami.com/resep/pie-apel-ala-mayumi-EBpxe"
 			}
 		]
 	}
