@@ -6,6 +6,8 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
 import android.util.Log;
+import android.view.MenuItem;
+import android.widget.TextView;
 
 import java.util.ArrayList;
 
@@ -21,6 +23,9 @@ public class RecipeCategoryActivity extends AppCompatActivity {
 
         getSupportActionBar().setTitle("Recipe Categories");
 
+        TextView greetingMessage = findViewById(R.id.greeting_user);
+        greetingMessage.setText(String.format("Hello %s !", getIntent().getStringExtra("username")));
+
         ArrayList<Category> categories = new JSONParser(this).getRecipeCategories();
         adapter = new RecipeCategoryAdapter(this, categories);
 
@@ -28,4 +33,5 @@ public class RecipeCategoryActivity extends AppCompatActivity {
         recyclerView.setAdapter(adapter);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
     }
+
 }

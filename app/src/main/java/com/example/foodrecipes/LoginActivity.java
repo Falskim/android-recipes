@@ -40,7 +40,9 @@ public class LoginActivity extends AppCompatActivity {
             return;
         }
 
-        this.startActivity(new Intent(this, RecipeCategoryActivity.class));
+        Intent intent = new Intent(this, RecipeCategoryActivity.class);
+        intent.putExtra("username", userUsername);
+        this.startActivity(intent);
     }
 
 

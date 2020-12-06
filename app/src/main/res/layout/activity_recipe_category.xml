@@ -7,6 +7,18 @@
     android:orientation="vertical"
     tools:context=".RecipeCategoryActivity">
 
+    <TextView
+        android:id="@+id/greeting_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:gravity="right"
+        android:paddingTop="10dp"
+        android:paddingRight="20dp"
+        android:text="@string/hello_user"
+        android:textSize="18sp"
+        android:textStyle="italic" />
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recycler"
         android:layout_width="match_parent"

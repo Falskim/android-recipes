@@ -5,6 +5,8 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
+import android.view.MenuItem;
+
 import java.util.ArrayList;
 
 public class RecipeListActivity extends AppCompatActivity {
@@ -18,6 +20,8 @@ public class RecipeListActivity extends AppCompatActivity {
         setContentView(R.layout.activity_recipe_list);
 
         String category = getIntent().getStringExtra("category");
+
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setTitle(category);
         ArrayList<Recipe> recipes = new JSONParser(this).getRecipesFromCategory(category);
 
@@ -26,5 +30,10 @@ public class RecipeListActivity extends AppCompatActivity {
         recyclerView = findViewById(R.id.recycler);
         recyclerView.setAdapter(adapter);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
+    }
+
+    public boolean onOptionsItemSelected(MenuItem item){
+        finish();
+        return true;
     }
 }
