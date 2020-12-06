@@ -58,8 +58,10 @@ public class JSONParser {
             for(int i = 0; i < recipeArray.length(); i++){
                 JSONObject recipeJson = recipeArray.getJSONObject(i);
 
-                String name = recipeJson.get("name").toString();
-                String image = recipeJson.get("image").toString();
+                String name = recipeJson.getString("name");
+                String image = recipeJson.getString("image");
+                String time = recipeJson.getString("time");
+                String size = recipeJson.getString("size");
                 String url = recipeJson.get("url").toString();
 
                 Log.d("RecipeName", name);
@@ -81,6 +83,8 @@ public class JSONParser {
                 Recipe recipe = new Recipe();
                 recipe.setName(name);
                 recipe.setImage(image);
+                recipe.setTime(time);
+                recipe.setSize(size);
                 recipe.setUrl(url);
                 recipe.setIngredients(ingredients);
                 recipe.setSteps(steps);

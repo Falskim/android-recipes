@@ -2,21 +2,12 @@
     <string name="app_name">Food Recipe Journal</string>
     <string name="recipe_information">Recipe Information</string>
     <string name="recipe_image">Recipe Image</string>
-    <string name="ingredients">Ingredients</string>
-    <string name="steps">Steps</string>
+    <string name="ingredients">Bahan Bahan</string>
+    <string name="steps">Cara Memasak</string>
     <string name="placeholder">Placeholder</string>
     <string name="recipe_source">Recipe Source</string>
     <string name="username">Username</string>
     <string name="password">Password</string>
     <string name="login">Login</string>
     <string name="title_activity_recipe_category">RecipeCategoryActivity</string>
-    <!-- Strings used for fragments for navigation -->
-    <string name="first_fragment_label">First Fragment</string>
-    <string name="second_fragment_label">Second Fragment</string>
-    <string name="next">Next</string>
-    <string name="previous">Previous</string>
-
-    <string name="hello_first_fragment">Hello first fragment</string>
-    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
-    <string name="hello_user">Hello User</string>
 </resources>

@@ -8,33 +8,13 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_height="wrap_content"
         android:layout_weight="1">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
-
-            <TextView
-                android:id="@+id/textView"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:gravity="center_horizontal"
-                android:padding="10dp"
-                android:text="@string/recipe_information"
-                android:textSize="30sp"
-                android:textStyle="bold" />
-
-            <ImageView
-                android:id="@+id/recipe_image"
-                android:layout_width="match_parent"
-                android:layout_height="200dp"
-                android:layout_weight="1"
-                android:contentDescription="@string/recipe_image"
-                android:scaleType="centerCrop"
-                app:srcCompat="@color/purple_200" />
 
             <TextView
                 android:id="@+id/recipe_name"
@@ -44,34 +24,92 @@
                 android:gravity="center_horizontal"
                 android:padding="10dp"
                 android:text="@string/recipe_information"
-                android:textSize="18sp"
+                android:textColor="#686868"
+                android:textSize="20sp"
                 android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/recipe_image"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:contentDescription="@string/recipe_image"
+                android:scaleType="centerCrop"
+                app:srcCompat="@color/primary" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingRight="-20dp"
+                    app:srcCompat="@drawable/time" />
+
+                <TextView
+                    android:id="@+id/recipe_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/placeholder" />
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingRight="-20dp"
+                    app:srcCompat="@drawable/size" />
+
+                <TextView
+                    android:id="@+id/recipe_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/placeholder" />
+
+            </LinearLayout>
 
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:cardBackgroundColor="#2196F3"
+                app:cardBackgroundColor="#7CB342"
                 app:cardUseCompatPadding="true"
                 app:contentPadding="10dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="wrap_content"
                     android:orientation="vertical">
 
                     <TextView
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:gravity="center|center_horizontal"
+                        android:includeFontPadding="false"
                         android:paddingBottom="10dp"
                         android:text="@string/ingredients"
-                        android:textColor="@color/white"
+                        android:textColor="#FFFFFF"
                         android:textSize="18sp"
                         android:textStyle="bold|italic" />
 
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#5F8832" />
+
                     <TextView
                         android:id="@+id/recipe_ingredients"
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:paddingTop="7dp"
                         android:text="@string/placeholder"
                         android:textColor="@color/white" />
                 </LinearLayout>
@@ -81,7 +119,7 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:cardBackgroundColor="#00BCD4"
+                app:cardBackgroundColor="#FFB300"
                 app:cardUseCompatPadding="true"
                 app:contentPadding="10dp">
 
@@ -91,19 +129,26 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
                         android:paddingBottom="10dp"
                         android:text="@string/steps"
-                        android:textColor="@color/white"
+                        android:textColor="#FFFFFF"
                         android:textSize="18sp"
                         android:textStyle="bold|italic" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#C38900" />
 
                     <TextView
                         android:id="@+id/recipe_steps"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:gravity="center_horizontal"
+                        android:gravity="center_horizontal|left"
+                        android:paddingTop="7dp"
                         android:text="@string/placeholder"
                         android:textColor="@color/white" />
                 </LinearLayout>
@@ -116,7 +161,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="@string/recipe_source"
-                app:backgroundTint="#FFC107" />
+                app:backgroundTint="#2196F3" />
 
         </LinearLayout>
     </ScrollView>

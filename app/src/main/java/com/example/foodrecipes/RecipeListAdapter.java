@@ -4,6 +4,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.graphics.drawable.Drawable;
 import android.util.Log;
+import android.util.TypedValue;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -39,6 +40,8 @@ public class RecipeListAdapter extends RecyclerView.Adapter<RecipeListAdapter.Re
         Recipe currentRecipe = recipeList.get(position);
         // set recycler view card text
         holder.cardText.setText(currentRecipe.getName());
+        if (currentRecipe.getName().length() > 25)
+            holder.cardText.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 18);
         // set recycler view card image
         try {
             // get input stream

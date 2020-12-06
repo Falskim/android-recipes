@@ -7,6 +7,7 @@ import android.graphics.drawable.Drawable;
 import android.net.Uri;
 import android.os.Bundle;
 import android.text.Html;
+import android.util.TypedValue;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
@@ -37,7 +38,14 @@ public class RecipeDetailActivity extends AppCompatActivity {
 
     protected void renderRecipe(Recipe rec) {
         // set recipe name
-        ((TextView)findViewById(R.id.recipe_name)).setText(rec.getName());
+        TextView recipeName = ((TextView)findViewById(R.id.recipe_name));
+        recipeName.setText(rec.getName());
+        if (rec.getName().length() > 25)
+            recipeName.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 18);
+        // set recipe time
+        ((TextView)findViewById(R.id.recipe_time)).setText(rec.getTime());
+        // set recipe size
+        ((TextView)findViewById(R.id.recipe_size)).setText(rec.getSize());
         // set recipe image
         try {
             // get input stream

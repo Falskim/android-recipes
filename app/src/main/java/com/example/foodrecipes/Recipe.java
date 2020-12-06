@@ -9,6 +9,8 @@ public class Recipe implements Serializable {
 
     private String name;
     private String image;
+    private String time;
+    private String size;
     private List<String> ingredients;
     private List<String> steps;
     private String url;
@@ -56,7 +58,7 @@ public class Recipe implements Serializable {
     public String getStepsHTML() {
         String htmlString = "";
         for (int i=0; i<steps.size(); i++) {
-            htmlString += String.format("---( %d )--- <br/>", (i+1));
+            htmlString += String.format("<b> Langkah-%d </b><br/>", (i+1));
             htmlString += String.format("%s <br/>", steps.get(i));
             if (i<steps.size()-1) htmlString += "<br/>";
         }
@@ -73,7 +75,25 @@ public class Recipe implements Serializable {
 
     public void printData() {
         Log.d("RecipeName", name);
+        Log.d("RecipeTime", time);
+        Log.d("RecipeSize", size);
         Log.d("RecipeImage", image);
         Log.d("RecipeUrl", url);
+    }
+
+    public String getTime() {
+        return time;
+    }
+
+    public void setTime(String time) {
+        this.time = time;
+    }
+
+    public String getSize() {
+        return size;
+    }
+
+    public void setSize(String size) {
+        this.size = size;
     }
 }

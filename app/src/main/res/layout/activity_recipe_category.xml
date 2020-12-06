@@ -15,7 +15,7 @@
         android:gravity="right"
         android:paddingTop="10dp"
         android:paddingRight="20dp"
-        android:text="@string/hello_user"
+        android:text="@string/placeholder"
         android:textSize="18sp"
         android:textStyle="italic" />
 
