@@ -6,11 +6,11 @@
 
 ## Images
 <p float="left">
-  <img src="https://github.com/Falskim/android-recipes/blob/master/docs/login.png" alt="Login" width="20%" height="auto" />
-  <img src="https://github.com/Falskim/android-recipes/blob/master/docs/categories.png" alt="Recipes" width="20%" height="auto" />
-  <img src="https://github.com/Falskim/android-recipes/blob/master/docs/recipes.png" alt="Recipes" width="20%" height="auto" />
-  <img src="https://github.com/Falskim/android-recipes/blob/master/docs/detail1.png" alt="Detail 1" width="20%" height="auto" />
-  <img src="https://github.com/Falskim/android-recipes/blob/master/docs/detail2.png" alt="Detail 2" width="20%" height="auto" />
+  <img src="https://github.com/Falskim/android-recipes/blob/master/docs/login.png" alt="Login" width="17%" height="auto" />
+  <img src="https://github.com/Falskim/android-recipes/blob/master/docs/categories.png" alt="Recipes" width="17%" height="auto" />
+  <img src="https://github.com/Falskim/android-recipes/blob/master/docs/recipes.png" alt="Recipes" width="17%" height="auto" />
+  <img src="https://github.com/Falskim/android-recipes/blob/master/docs/detail1.png" alt="Detail 1" width="17%" height="auto" />
+  <img src="https://github.com/Falskim/android-recipes/blob/master/docs/detail2.png" alt="Detail 2" width="17%" height="auto" />
 </p>
 
 ## Usage
