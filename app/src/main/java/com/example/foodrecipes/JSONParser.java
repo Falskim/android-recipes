@@ -17,15 +17,44 @@ import java.util.List;
 public class JSONParser {
 
     private Context context;
+    JSONObject obj;
 
     public JSONParser(Context context){
         this.context = context;
     }
 
+    public ArrayList<Category> getRecipeCategories() {
+        ArrayList<Category> categories = new ArrayList<>();
+
+        try {
+            this.obj = new JSONObject(loadJSONFromAsset());
+            Iterator<String> keys = obj.keys();
+            while (keys.hasNext()) {
+                String key = keys.next();
+                JSONObject jsonValue = (JSONObject)obj.get(key);
+
+                String name = key;
+                String image = jsonValue.get("image").toString();
+
+                Log.d("CategoryName", name);
+                Log.d("CategoryImage", image);
+
+                Category category = new Category();
+                category.setName(name);
+                category.setImage(image);
+
+                categories.add(category);
+            }
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+        return categories;
+    }
+
     public ArrayList<Recipe> getRecipeArrayList() {
         ArrayList<Recipe> recipes = new ArrayList<>();
         try {
-            JSONObject obj = new JSONObject(loadJSONFromAsset());
+            this.obj = new JSONObject(loadJSONFromAsset());
             Iterator<String> temp = obj.keys();
             while (temp.hasNext()) {
                 String key = temp.next();

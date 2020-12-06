@@ -40,7 +40,7 @@ public class LoginActivity extends AppCompatActivity {
             return;
         }
 
-        this.startActivity(new Intent(this, HomeActivity.class));
+        this.startActivity(new Intent(this, RecipeCategoryActivity.class));
     }
 
 

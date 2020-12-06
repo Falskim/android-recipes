@@ -1,107 +1,122 @@
 {
-	"1": {
-		"name": "Ayam Goreng Lengkuas Sajiku®",
-		"image": "ayam.jpg",
-		"ingredients": [
-			"1 ekor ayam, berat 1 kg, potong 8",
-			"3 siung bawang putih",
-			"1 sdm biji ketumbar, sangrai",
-			"5 btr kemiri,sangrai",
-			"2 cm kunyit,kupas dan bakar hingga berubah warna",
-			"1 cm jahe,kupas",
-			"4 lbr daun salam",
-			"2 btg serai,memarkan",
-			"100 gr Lengkuas, cuci bersih ,parut kasar berikut kulitnya",
-			"1 bks Sajiku® Bumbu Ayam Goreng",
-			"200 ml of air",
-			"1/4 sdt merica bubuk",
-			"Minyak secukupnya"
-		],
-		"steps": [
-			"Haluskan bawang putih, biji ketumbar, kemiri, kunyit dan jahe.",
-			"Panaskan minyak dalam wajan dengan api sedang. Tumis bumbu halus hingga harum, tambahkan daun salam, serai dan setengah dari lengkuas parut. Tumis kembali hingga bumbu matang. Tambahkan garam, lada dan sedikit air.",
-			"Masukkan potongan ayam, air, merica bubuk dan Sajiku® Ayam Goreng. Aduk rata dan masak (ungkep) dengan api kecil hingga ayam matang dan bumbu surut. Bolak-balik ayam sesekali. Apabila perlu, tambahkan air selama pemasakan.",
-			"Angkat ayam, tiriskan, dan tinggalkan sisa bumbu dalam wajan. Tambahkan sisa parutan lengkuas ke dalam bumbu. Masak kembali selama 5 menit.",
-			"Panaskan minyak yang cukup untuk menggoreng ayam di dalam wajan bersih. Goreng ayam hingga kematangan dan warna yang diinginkan. Goreng sisa bumbu di dalam minyak sambil diaduk hingga mengering. Angkat dan tiriskan.",
-			"Sajikan ayam goreng dan taburan bumbu lengkuas kering dengan nasi uduk, tempe dan tahu, sambal dan lalapan."
-		],
-		"url" : "https://www.dapurumami.com/resep/ayam-goreng-lengkuas-sajiku-WJYla"
+	"Ayam dan Daging": {
+		"image" : "chicken.jpg",
+		"recipe" : [
+			{
+				"name": "Ayam Goreng Lengkuas Sajiku®",
+				"image": "ayam_goreng_lengkuas.jpg",
+				"ingredients": [
+					"1 ekor ayam, berat 1 kg, potong 8",
+					"3 siung bawang putih",
+					"1 sdm biji ketumbar, sangrai",
+					"5 btr kemiri,sangrai",
+					"2 cm kunyit,kupas dan bakar hingga berubah warna",
+					"1 cm jahe,kupas",
+					"4 lbr daun salam",
+					"2 btg serai,memarkan",
+					"100 gr Lengkuas, cuci bersih ,parut kasar berikut kulitnya",
+					"1 bks Sajiku® Bumbu Ayam Goreng",
+					"200 ml of air",
+					"1/4 sdt merica bubuk",
+					"Minyak secukupnya"
+				],
+				"steps": [
+					"Haluskan bawang putih, biji ketumbar, kemiri, kunyit dan jahe.",
+					"Panaskan minyak dalam wajan dengan api sedang. Tumis bumbu halus hingga harum, tambahkan daun salam, serai dan setengah dari lengkuas parut. Tumis kembali hingga bumbu matang. Tambahkan garam, lada dan sedikit air.",
+					"Masukkan potongan ayam, air, merica bubuk dan Sajiku® Ayam Goreng. Aduk rata dan masak (ungkep) dengan api kecil hingga ayam matang dan bumbu surut. Bolak-balik ayam sesekali. Apabila perlu, tambahkan air selama pemasakan.",
+					"Angkat ayam, tiriskan, dan tinggalkan sisa bumbu dalam wajan. Tambahkan sisa parutan lengkuas ke dalam bumbu. Masak kembali selama 5 menit.",
+					"Panaskan minyak yang cukup untuk menggoreng ayam di dalam wajan bersih. Goreng ayam hingga kematangan dan warna yang diinginkan. Goreng sisa bumbu di dalam minyak sambil diaduk hingga mengering. Angkat dan tiriskan.",
+					"Sajikan ayam goreng dan taburan bumbu lengkuas kering dengan nasi uduk, tempe dan tahu, sambal dan lalapan."
+				],
+				"url" : "https://www.dapurumami.com/resep/ayam-goreng-lengkuas-sajiku-WJYla"
+			},
+			{
+				"name": "Mie Sapi Lada Hitam Ala SAORI®",
+				"image": "mie_sapi_lada_hitam.jpg",
+				"ingredients": [
+					"150 gr Mie Gepeng Rebus",
+					"70 gr Daging Sapi",
+					"4 btg Sawi Hijau",
+					"2 bks SAORI® Saus Lada Hitam",
+					"1/2 bh Bawang Bombay",
+					"1 bh Cabai Merah",
+					"75 ml Air",
+					"2 sdm Minyak goreng"
+				],
+				"steps": [
+					"Iris sawi hijau, bawang bombay, cabai merah dan daging sapi, sisihkan.",
+					"Panaskan minyak goreng, tumis bawang bombay, cabai merah, dan daging sapi hingga berubah warna.",
+					"Masukkan mie gepeng, air, dan SAORI® Saus Lada Hitam, aduk sebentar.",
+					"Tambahkan sawi hijau, aduk sebentar, angkat dan sajikan."
+				],
+				"url": "https://www.dapurumami.com/resep/mie-sapi-lada-hitam-ala-saori-Q4OG0"
+			},
+		]
 	},
-	"2": {
-		"name": "Bakwan Tahu Udang Ala Sajiku®",
-		"image": "bakwan.jpg",
-		"ingredients": [
-			"80 gr Tahu putih",
-			"50 gr Udang cincang",
-			"2 sdm Kacang polong",
-			"20 gr Wortel",
-			"1 bks Sajiku® Tepung Bumbu Bakwan Crispy 90gr",
-			"500 ml Minyak goreng",
-			"130 ml Air putih "
-		],
-		"steps": [
-			"Potong wortel bentuk dadu kecil, hancurkan tahu menggunakan garpu, sisihkan",
-			"Campurkan Sajiku® Tepung Bumbu Bakwan Crispy dengan air, aduk rata",
-			"Masukkan wortel, tahu, udang cincang, dan kacang polong, aduk rata",
-			"Panaskan minyak goreng, masukkan adonan, goreng hingga matang dan berwarna kuning keemasan"
-		],
-		"url": "https://www.dapurumami.com/resep/bakwan-tahu-udang-ala-sajiku-Yuo3X"
+	"Seafood": {
+		"image" : "seafood.jpg",
+		"recipe" : [
+			{
+				"name": "Udang Saus Lada Hitam Ala SAORI®",
+				"image": "udang_saus_lada_hitam.jpg",
+				"ingredients": [
+					"250 gr Udang galah",
+					"1 bks SAORI® Saus Lada Hitam",
+					"1/2 bh Bawang bombay",
+					"3 sdm Minyak goreng"
+				],
+				"steps": [
+					"Iris bawang bombay , sisihkan",
+					"Panaskan minyak goreng, tumis bawang bombay hingga layu",
+					"Masukkan udang",
+					"Tambahkan SAORI® Saus Lada Hitam , aduk rata, masak hingga matang, angkat dan sajikan."
+				],
+				"url": "https://www.dapurumami.com/resep/udang-saus-lada-hitam-ala-saori-xFSxJ"
+			}
+		]
 	},
-	"3": {
-		"name": "Mie Sapi Lada Hitam Ala SAORI®",
-		"image": "mie.jpg",
-		"ingredients": [
-			"150 gr Mie Gepeng Rebus",
-			"70 gr Daging Sapi",
-			"4 btg Sawi Hijau",
-			"2 bks SAORI® Saus Lada Hitam",
-			"1/2 bh Bawang Bombay",
-			"1 bh Cabai Merah",
-			"75 ml Air",
-			"2 sdm Minyak goreng"
-		],
-		"steps": [
-			"Iris sawi hijau, bawang bombay, cabai merah dan daging sapi, sisihkan.",
-			"Panaskan minyak goreng, tumis bawang bombay, cabai merah, dan daging sapi hingga berubah warna.",
-			"Masukkan mie gepeng, air, dan SAORI® Saus Lada Hitam, aduk sebentar.",
-			"Tambahkan sawi hijau, aduk sebentar, angkat dan sajikan."
-		],
-		"url": "https://www.dapurumami.com/resep/mie-sapi-lada-hitam-ala-saori-Q4OG0"
-	},
-	"4": {
-		"name": "Telur Gulung Ala AJI‑NO‑MOTO®",
-		"image": "telur.jpeg",
-		"ingredients": [
-			"2 btr Telur",
-			"1 sdt AJI-NO-MOTO®",
-			"1/2 sdm Saus tomat",
-			"1/4 sdt Garam",
-			"15 ml Air",
-			"500 ml Minyak goreng "
-		],
-		"steps": [
-			"Siapkan wadah, kocok telur bersama saus tomat dan air.",
-			"Masukkan AJI‑NO‑MOTO® dan garam, aduk rata.",
-			"Panaskan minyak goreng dan masukkan 2 sdm telur.",
-			"Gulung telur dengan tusuk sate. Angkat dan sajikan"
-		],
-		"url": "https://www.dapurumami.com/resep/telur-gulung-ala-aji-no-moto-BGR7v"
-	},
-	"5": {
-		"name": "Udang Saus Lada Hitam Ala SAORI®",
-		"image": "udang.jpg",
-		"ingredients": [
-			"250 gr Udang galah",
-			"1 bks SAORI® Saus Lada Hitam",
-			"1/2 bh Bawang bombay",
-			"3 sdm Minyak goreng"
-		],
-		"steps": [
-			"Iris bawang bombay , sisihkan",
-			"Panaskan minyak goreng, tumis bawang bombay hingga layu",
-			"Masukkan udang",
-			"Tambahkan SAORI® Saus Lada Hitam , aduk rata, masak hingga matang, angkat dan sajikan."
-		],
-		"url": "https://www.dapurumami.com/resep/udang-saus-lada-hitam-ala-saori-xFSxJ"
+	"Camilan": {
+		"image" : "snack.jpg",
+		"recipe" : [
+			{
+				"name": "Bakwan Tahu Udang Ala Sajiku®",
+				"image": "bakwan_tahu_udang.jpg",
+				"ingredients": [
+					"80 gr Tahu putih",
+					"50 gr Udang cincang",
+					"2 sdm Kacang polong",
+					"20 gr Wortel",
+					"1 bks Sajiku® Tepung Bumbu Bakwan Crispy 90gr",
+					"500 ml Minyak goreng",
+					"130 ml Air putih "
+				],
+				"steps": [
+					"Potong wortel bentuk dadu kecil, hancurkan tahu menggunakan garpu, sisihkan",
+					"Campurkan Sajiku® Tepung Bumbu Bakwan Crispy dengan air, aduk rata",
+					"Masukkan wortel, tahu, udang cincang, dan kacang polong, aduk rata",
+					"Panaskan minyak goreng, masukkan adonan, goreng hingga matang dan berwarna kuning keemasan"
+				],
+				"url": "https://www.dapurumami.com/resep/bakwan-tahu-udang-ala-sajiku-Yuo3X"
+			},
+			{
+				"name": "Telur Gulung Ala AJI‑NO‑MOTO®",
+				"image": "telur_gulung.jpeg",
+				"ingredients": [
+					"2 btr Telur",
+					"1 sdt AJI-NO-MOTO®",
+					"1/2 sdm Saus tomat",
+					"1/4 sdt Garam",
+					"15 ml Air",
+					"500 ml Minyak goreng "
+				],
+				"steps": [
+					"Siapkan wadah, kocok telur bersama saus tomat dan air.",
+					"Masukkan AJI‑NO‑MOTO® dan garam, aduk rata.",
+					"Panaskan minyak goreng dan masukkan 2 sdm telur.",
+					"Gulung telur dengan tusuk sate. Angkat dan sajikan"
+				],
+				"url": "https://www.dapurumami.com/resep/telur-gulung-ala-aji-no-moto-BGR7v"
+			}
+		]
 	}
 }
